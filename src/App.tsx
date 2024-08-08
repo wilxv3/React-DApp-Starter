@@ -1,7 +1,7 @@
 import './App.css';
 import React, { useEffect, useState } from "react"
 import Web3 from "web3";
-import TokenABI = require("./abis/Token.json");
+import TokenABI from "./abis/Token.json";
 import TokenType from '../types/web3-v1-contracts/TokenName';
 
 function App() {
